@@ -27,7 +27,7 @@
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    width: 15%;
+    width: 5%;
 }
 
 .container {
@@ -54,11 +54,25 @@
   transition: 0.3s;
   padding: 20px;
   display: inline-flex;
-  margin: 20px;
+  margin: 10px;
+  position: relative;
+
 }
 .contact-card > p {
   font-size: 1.2em;
 }
+.img{
+    float:  left;
+    width:  80px;
+    height: 80px;
+    background-size: cover;
+} 
+        .imgz{
+    float:  left;
+    width:  100px;
+    height: 50px;
+    background-size: cover;            
+}       
 </style>
 <h1 class="title">Mateusz Kolasiński - GameDev (wannabe)</h1><br /><br />
 <div class="contact-card">
@@ -79,19 +93,35 @@
   <h2 style="margin-bottom: 20px;"> Links to my other projects: </h2>
   <div style="display: flex">
     <div class="contact-card">
-      <img border="0" alt="Avatar" src="NW.png">
+      <img border="0" class="imgz" alt="Avatar" src="NW.png">
       <div style="padding-left: 10px">
-        <h3>Number Wizard</h3>
-        <a href="https://vesorad.github.io/Number_Wizard/">Play</a>
+        <h3>NumberWizard</h3>
+        <a style="font-size: 13px" href="https://vesorad.github.io/Number_Wizard/">See on Github</a>
       </div>
     </div>
     <div class="contact-card">
-      <img border="0" alt="Avatar" src="Block-Des.png">
+      <img border="0" alt="Avatar" class="imgz" src="Block-Des.png">
       <div style="padding-left: 10px">
         <h3>BlockDes</h3>
-        <a href="https://vesorad.github.io/Number_Wizard/">Play</a>
+        <a style="font-size: 13px" href="https://vesorad.github.io/Number_Wizard/">See on Github</a>
+      </div>
+        </div>
+   <div class="contact-card">
+      <img border="0" alt="Avatar" class="img" src="Bee-Icon.png">
+      <div style="padding-left: 10px">
+        <h3>BeeForest</h3>
+        <a style="font-size: 13px" href="https://play.google.com/store/apps/details?id=eu.napcode.FlashBee">See in PlayStore</a>
       </div>
     </div>
+      <div class="contact-card">
+      <img border="0" alt="Avatar" class="img" src="Brick-Icon.png">
+      <div style="padding-left: 10px">
+        <h3 >BrickBuild</h3>
+        <a style="font-size: 13px" href="https://play.google.com/store/apps/details?id=com.eu.napcode.BrickBuild" >See in PlayStore</a>
+          </div>
+    </div>
+    </div>
+    
   </div>
 </div>
   </body>
